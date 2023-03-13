@@ -124,7 +124,7 @@ img
 .craft .container .row
 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 20px;
 }
 /*------------ Crafted section styling end --------------*/
@@ -283,7 +283,8 @@ img
     /*------ craft styling start -------*/
     .craft
     {
-        height: 100vh;
+        height: 80vh;
+        background-color: #fff;
     }
 
     .craft .container
@@ -309,7 +310,7 @@ img
     /*------ products styling start -------*/
     .products
     {
-        height: 100vh;
+        height: 60vh;
     }
 
     .products .container
